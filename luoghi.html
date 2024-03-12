@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>MatriArcheologia</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME= "DC.Title" CONTENT="Nome della risorsa"/>
+	<META NAME= "DC.Type" CONTENT="Natura della risorsa"/>
+	<META NAME= "DC.Date" CONTENT="Data di produzione della risorsa"/>
+	<META NAME= "DC.Place" CONTENT="Luogo di ritrovamento della risorsa"/>
+	<META NAME= "DC.Material" CONTENT="Materiale della risorsa"/>
+	<META NAME= "DC.Condition" CONTENT="Stato di conservazione della risorsa"/>
+	<META NAME= "DC.Size" CONTENT="Dimensioni della risorsa"/>
+	<META NAME= "DC.Exhibition" CONTENT="Luogo di esposizione della risorsa"/>
+</head>
+<body>
+<!-- header con nav -->
+<header>
+	<nav class="navbar navbar-expand-lg container-fluid">
+		<div class="header-container container-fluid">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/header-sfondo.png" title="Logo" alt="Logo" class="img-header">
+			</a> 
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="navbarNav" style="font-size: 1.5vw;">
+				<a href="">IL PROGETTO</a>
+				<div class="dropdown">
+    				<a href="luoghi.html"><button class="dropbtn">LUOGHI</button></a> 
+    				<div class="dropdown-content-1">
+    					<div class="container">
+    						<div class="row">
+    							<div class="col-6">
+    								<a href="#">Area Renano-Danubiana</a><br>
+				      				<a href="#">Area Italica</a><br>
+				      				<a href="">Area Russa</a>
+    							</div>
+    							<div class="col-6">
+    								<a href="#">Area Pirenaico-Aquitano</a><br>
+				      				<a href="">Area Balcanica</a>
+    							</div>
+    						</div>
+    					</div>				     
+    				</div>
+  				</div> 
+  				<div class="dropdown">
+    				<a href=""><button class="dropbtn">PERIODO</button></a> 
+    				<div class="dropdown-content-2">
+				      	<a href="#">Paleolitico</a><br>
+				      	<a href="#">Neolitico</a>
+    				</div>
+  				</div> 
+				<a href="">TUTTI I REPERTI</a>
+				<ul>	
+					<li><i class="fa fa-search search-bar" aria-hidden="true"></i></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">it</button></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">en</button></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<main>
+	<!--mappa e titolo-->
+	<section>
+		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+    			<li class="breadcrumb-item li-home"><a href="index.html">Home</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">Luoghi</li>
+  			</ol>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-7">
+					<iframe src="https://www.google.com/maps/d/embed?mid=1LbwYNu_QcL8Ncb6SC64YBfDTfUjToCA&ehbc=2E312F" width="100%" height="500vh" title="Mappa"></iframe>
+				</div>
+				<div class="col-5">
+					<h1 class="h1-luoghi">I LUOGHI</h1>
+				</div>
+			</div>
+		</div>
+</section>
+
+<!--tab di items-->
+<section>
+	<div class="container container-fasce">
+		<div class="row fascia">
+			<div class="row">
+				<div class="col-12 fasce-title">
+					<h3>AREA RENANO-DANUBIANA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/Dolní-Věstonice.jpg" class="card-img-top card-img" alt="Venere di Dolní Věstonice">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Dolní Věstonice</h6>
+							<p class="card-text DC.Date">25.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<a href="item.html"><img src="img/willendorf.jpg" class="card-img-top card-img" alt="Venere di Willendorf"></a>
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Willendorf</h6>
+							<p class="card-text DC.Date">24.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/Petersfels.jpg" class="card-img-top card-img" alt="Venere di Petersfels">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Petersfels </h6>
+							<p class="card-text DC.Date">15.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+		<div class="row fascia fascia-italia">
+			<div class="row">
+				<div class="col-12 fasce-title">
+					<h3>AREA ITALICA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/savignano.jpg" class="card-img-top card-img" alt="Venere di Savignano">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Savignano</h6>
+							<p class="card-text DC.Date">30.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/Balzi-rossi.jpg" class="card-img-top card-img" alt="Venere dei Balzi Rossi">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere dei Balzi Rossi</h6>
+							<p class="card-text DC.Date">26.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/scandiano.jpg" class="card-img-top card-img" alt="Venere di Scandiano">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Scandiano </h6>
+							<p class="card-text DC.Date">(datazione non definita)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/frasassi.jpg" class="card-img-top card-img" alt="Venere di Frasassi">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Frasassi</h6>
+							<p class="card-text DC.Date">20.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/parabita.jpg" class="card-img-top card-img" alt="Venere di Parabita">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Parabita</h6>
+							<p class="card-text DC.Date">14.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/tolentino.jpg" class="card-img-top card-img" alt="Venere di Tolentino">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Tolentino</h6>
+							<p class="card-text DC.Date">8.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/bracciano.jpg" class="card-img-top card-img" alt="Dea Madre di Bracciano">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Dea Madre di Bracciano</h6>
+							<p class="card-text DC.Date">5.600 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/fano.jpg" class="card-img-top card-img" alt="Venere di Fano">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Fano </h6>
+							<p class="card-text DC.Date">Neolitico</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/muros.jpg" class="card-img-top card-img" alt="Dea Madre di Muros">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Dea Madre di Muros</h6>
+							<p class="card-text DC.Date">4.500 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/portoferro.jpg" class="card-img-top card-img" alt="Dea Madre di Porto Ferro">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Dea Madre di Porto Ferro</h6>
+							<p class="card-text DC.Date">3.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row fascia">
+			<div class="row">
+				<div class="col-12 fasce-title">
+					<h3>AREA PIRENAICO-AQUITANA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/lespugue.png" class="card-img-top card-img" alt="Venere di Lespugue">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Lespugue</h6>
+							<p class="card-text DC.Date">23.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/brassempouy.png" class="card-img-top card-img" alt="Venere di Brassempouy">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Brassempouy</h6>
+							<p class="card-text DC.Date">25.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/laussel.jpg" class="card-img-top card-img" alt="Venere di Laussel">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Laussel </h6>
+							<p class="card-text DC.Date">20.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/tursac.jpg" class="card-img-top card-img" alt="Venere di Tursac">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Tursac </h6>
+							<p class="card-text DC.Date">23.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row fascia">
+			<div class="row">
+				<div class="col-12 fasce-title">
+					<h3>AREA RUSSA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/gagarino.jpg" class="card-img-top card-img" alt="Venere di Gagarino">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Gagarino</h6>
+							<p class="card-text DC.Date">26.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/Kostenki.jpg" class="card-img-top card-img" alt="Venere di Kostenki">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Kostenki</h6>
+							<p class="card-text DC.Date">22.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/mezine.jpg" class="card-img-top card-img" alt="Venere di Mezine">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Venere di Mezine </h6>
+							<p class="card-text DC.Date">Paleolitico</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row fascia">
+			<div class="row">
+				<div class="col-12 fasce-title">
+					<h3>AREA BALCANICA</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/Tumba-Madzari.jpg" class="card-img-top card-img" alt="Grande Madre di Tumba-Madzari">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Grande Madre di Tumba-Madzari</h6>
+							<p class="card-text DC.Date">8.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="card h-100">
+						<img src="img/catalhoyuk.jpg" class="card-img-top card-img" alt="Dea Madre di Çatalhöyük">
+						<div class="card-body">
+							<h6 class="card-title DC.Title">Dea Madre di Çatalhöyük</h6>
+							<p class="card-text DC.Date">6.000 a.C.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Torna sopra</button>
+</section>
+
+<!-- prefooter -->
+	<section class="container-fluid bg-pref" style="height: 40%vh;">
+		<div class="container txt-center">
+			<div class="row">
+				<div class="col-6 pref-text">
+					<h3 class="pref-h">ISCRIVITI</h3>
+					<p class="pref-p">per effettuare il download delle immagini e copiare i testi</p>
+				</div>
+				<div class="col-6 sub-form">
+					<div class="mb-3">
+  						<label for="formGroupExampleInput" class="form-label">username:</label>
+  						<input type="text" class="form-control" id="formGroupExampleInput">
+					</div>
+					<div class="mb-3">
+  						<label for="formGroupExampleInput2" class="form-label">e-mail:</label>
+  						<input type="text" class="form-control" id="formGroupExampleInput2">
+					</div>
+					<button type="button" class="btn btn-primary btn-lg sub-btn">Iscriviti</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!-- footer -->
+<footer class="container-fluid">
+	<div class="container footer-cont">
+		<div class="row">
+			<div class="col-4 txt-copy">
+				<a href="" title="©Copyright">©Copyright</a>
+			</div>
+			<div class="col-4 txt-wpp">
+				<a href="wpp.html" title="Web Project Plan">Web Project Plan</a>
+		    </div>
+			<div class="col-4">
+				<div class="row">
+					<div class="col-6 foot-trovaci">
+						Trovaci anche su
+					</div>
+					<div class="col-6">
+						<a href=""><img src="img/icone-social.png" alt="Icone social" class="social-icon"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+
+</body>
+</html>

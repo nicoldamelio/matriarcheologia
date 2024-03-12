@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>MatriArcheologia</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME= "DC.Title" CONTENT="Nome della risorsa"/>
+	<META NAME= "DC.Type" CONTENT="Natura della risorsa"/>
+	<META NAME= "DC.Date" CONTENT="Data di produzione della risorsa"/>
+	<META NAME= "DC.Place" CONTENT="Luogo di ritrovamento della risorsa"/>
+	<META NAME= "DC.Material" CONTENT="Materiale della risorsa"/>
+	<META NAME= "DC.Condition" CONTENT="Stato di conservazione della risorsa"/>
+	<META NAME= "DC.Size" CONTENT="Dimensioni della risorsa"/>
+	<META NAME= "DC.Exhibition" CONTENT="Luogo di esposizione della risorsa"/>
+</head>
+<body>
+<!-- header con nav -->
+<header>
+	<nav class="navbar navbar-expand-lg container-fluid">
+		<div class="header-container container-fluid">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/header-sfondo.png" title="Logo" alt="Logo" class="img-header">
+			</a> 
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="navbarNav" style="font-size: 1.5vw;">
+				<a href="">IL PROGETTO</a>
+				<div class="dropdown">
+    				<a href="luoghi.html"><button class="dropbtn">LUOGHI</button></a> 
+    				<div class="dropdown-content-1">
+    					<div class="container">
+    						<div class="row">
+    							<div class="col-6">
+    								<a href="#">Area Renano-Danubiana</a><br>
+				      				<a href="#">Area Italica</a><br>
+				      				<a href="">Area Russa</a>
+    							</div>
+    							<div class="col-6">
+    								<a href="#">Area Pirenaico-Aquitano</a><br>
+				      				<a href="">Area Balcanica</a>
+    							</div>
+    						</div>
+    					</div>				     
+    				</div>
+  				</div> 
+  				<div class="dropdown">
+    				<a href=""><button class="dropbtn">PERIODO</button></a> 
+    				<div class="dropdown-content-2">
+				      	<a href="#">Paleolitico</a><br>
+				      	<a href="#">Neolitico</a>
+    				</div>
+  				</div> 
+				<a href="">TUTTI I REPERTI</a>
+				<ul>	
+					<li><i class="fa fa-search search-bar" aria-hidden="true"></i></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">it</button></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">en</button></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<maim>
+<section class="wpp">
+	<h1>Web Project Plan</h1>
+	<div>
+		<h3>IDEA</h3>
+		<p>Il mio progetto consiste in una raccolta digitale di reperti archeologici rappresentanti la Grande Madre o <strong> Dea Madre</strong>, intorno la quale nella preistoria sarebbe nato un culto che ha portato molti archeologi a credere che le prime civiltà fossero di tipo matriarcale e che solo in un secondo momento si sarebbe affermato il patriarcato. I reperti che includo nel mio progetto appartengono al Paleolitico o al Neolitico e provengono da zone diverse dell’Europa, quindi vorrei impostare la navigazione su criteri temporali e spaziali; inoltre mi piacerebbe offrire all’utente la possibilità di leggere i contenuti in lingue diverse, di effettuare un’iscrizione al sito, in modo da poter scaricare le immagini e copiare il testo, e di fare una ricerca libera nella collezione, solo a partire dal nome del reperto.</p>
+	</div> 
+	<div>
+		<h3>BRIEF</h3>
+		<p>L’obiettivo del progetto è la creazione di una <strong> raccolta</strong> di immagini di <strong> reperti archeologici </strong>che possa facilitare la ricerca nell’ambito delle civiltà matriarcali preistoriche riunendone tutte le testimonianze in un unico sito. <br>
+		Il progetto è pensato per un <strong>pubblico accademico</strong>, per studenti o docenti che facciano ricerca nell’ambito storico o archeologico; tutti accedono agli stessi contenuti e l’accesso al sito è libero e, una volta effettuato, l’utente ha la possibilità di effettuare la ricerca ed iscriversi, per scaricare i materiali.<br>
+		Il progetto prevede l’utilizzo di testo ed immagini e vorrei che l’accesso fosse possibile da ogni tipo di dispositivo; il design multipiattaforma permetterebbe così alla ricerca di essere universale. <br>
+		Le immagini e i metadati contenuti nel progetto derivano dalla rete, principalmente da Wikimedia Commons, Wikidata e dal sito “Preistoria in Italia” <a href="https://www.preistoriainitalia.it" title="Preistoria in Italia">(https://www.preistoriainitalia.it/)</a> ; i testi di introduzione e descrizione dei singoli items sono anche frutto di rielaborazione personale. 
+		</p>
+	</div>
+	<div>
+		<h3>BENCHMARK</h3>
+		<p>Sul web non esistono raccolte digitali di statuette o epigrafi esclusivamente dedicate alla Dea Madre e provenienti da tutta Europa; il sito <strong>“Preistoria in Italia”</strong> è l’unico a proporre una raccolta di reperti archeologici legati a questo ambito, nonostante la ricerca sulla Civiltà della Dea in questo caso sia limitata all’Italia e non si tratti solo di manufatti ma anche di pitture parietali, sepolture e miti diffusi a partire dal culto della Dea stessa. Il mio progetto è quindi più selettivo dal punto di vista del tipo di reperto ma riporta testimonianze da tutta l’Europa. <br>
+		Come strumento di navigazione, mi piacerebbe riutilizzare la mappa proposta da “Preistoria in Italia”; nell’ambito dell’interfaccia invece, adotterei lo stesso strumento per la scelta della lingua presente nel sito “Semantic Digital Edition of Paolo Bufalini’s notebook” <a href="http://projects.dharc.unibo.it/bufalini-notebook/" title="Semantic Digital Edition of Paolo Bufalini’s notebook">(http://projects.dharc.unibo.it/bufalini-notebook/)</a>  e mi piacerebbe realizzare una navbar minimal, simile a quella del “Ragù Project” <a href="https://raguproject.github.io/index.html" title="Ragù Project">(https://raguproject.github.io/index.html)</a>. <br>
+		Tra i siti che potrebbero concorrere con mio progetto, il già citato “Preistoria in Italia” propone una navigazione per luogo e per cronologia, offrendo una raccolta di reperti databili dal Paleolitico all’Età del Ferro e accompagnando le immagini ad articoli di studiosi dell’ambito. <br> “Archeoastronomia in Italia” <a href="https://www.frru2.altervista.org/index.html" title="Archeoastronomia in Italia">(https://www.frru2.altervista.org/index.html)</a>  invece è un sito che raccoglie news e ricerche in ambito archeologico ed astronomico e presenta una sezione dedicata alle Veneri preistoriche; la ricerca si effettua per luogo e le pagine dei singoli luoghi riportano una serie di reperti, dotati di pochi metadati; il layout però è molto confuso e la navigazione non è agevole. 
+		</p>
+	</div>
+	<div>
+		<h3>STRUTTURA</h3>
+		<img src="schema/mappa.png" alt="Mappa concettuale">
+		<img src="schema/schema-categ.png" alt="Schema delle dipendenze e categorie">
+	</div>
+	<div>
+		<h3>LAYOUT</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<img src="wireframes/home.png" alt="home">
+				</div>
+				<div class="col-3">
+					<img src="wireframes/home-navig.png" alt="home con navigazione secondaria">
+				</div>
+				<div class="col-3">
+					<img src="wireframes/luoghi.png" alt="pagina luoghi">
+				</div>
+				<div class="col-3">
+					<img src="wireframes/area.png" alt="pagina singola area geografica">
+				</div>
+			</div>
+			<div class="row row2-frame">
+				<div class="col-4" style="text-align: right;">
+					<img src="wireframes/paleolitico.png" alt="pagina periodo">
+				</div>
+				<div class="col-4" style="text-align: center;">
+					<img src="wireframes/tutti-reperti.png" alt="pagina tutti i reperti">
+				</div>
+				<div class="col-4" style="text-align: left;">
+					<img src="wireframes/item.png" alt="pagina item">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<h3>USABILITÀ</h3>
+			<p><br><strong>Aspetto e tipografia:</strong> La palette di colori utilizzata è la stessa per tutto il sito, sia come sfondo dei box che come colore dei testi; anche il font resta invariato e il testo ha dimensioni maggiori solo nel caso dei titoli (differenziati a seconda del grado di importanza). I testi sono brevi e chiari e i concetti principali (come i nomi dei reperti nelle pagine di navigazione primaria) sono evidenziati con colori diversi. Il canale di navigazione corrente nella navbar è evidenziato da un colore più scuro; al passaggio del mouse su “Il progetto” o “Tutti i reperti” nella navbar, il testo cambia colore; invece nel caso di “Luoghi” e “Periodo” all’hover si apre già il menù di navigazione secondaria in dropdown. Invece, per i link attivi, all’hover il testo diventa di un colore più scuro invece che essere sottolineato. Al passaggio del cursore su link o immagini inoltre, compare sempre un breve testo descrittivo dell’elemento. 
+			<br><strong>Colori, icone e font:</strong> La palette di colori scelta contiene 4 colori e quello utilizzato maggiormente è il più chiaro, con le sue sfumature; il colore più scuro è invece impiegato per i titoli; nelle sezioni con sfondo colorato inoltre, il testo è in bianco, in modo da risaltare. L’intestazione è l’unica sezione ad avere uno sfondo dal colore più deciso, in modo da distinguerla sempre nella pagina. Il font impiegato è Fraunces, dalla libreria di Google Fonts, mentre le icone, ad esempio quelle per la ricerca libera, per il download delle immagini e per il collegamento ai social, vengono richiamate dalla libreria di FontAwesome.</p>
+			<div class="container">
+			<div class="row row-archit">
+				<div class="col-10">
+					<p><br><strong>Architettura:</strong> Gli strumenti di navigazione hanno posizione fissa in tutte le pagine; la navbar è inserita nell’intestazione, alla destra del logo. I box di approfondimento sono utilizzati nelle pagine dei singoli items e rimandano a link esterni che approfondiscono aspetti specifici del reperto in questione. L’index è strutturato in fasce: titolo del progetto, spiegazione del progetto, anteprima degli items e timeline, seguita da prefooter e footer; nelle pagine dei singoli canali di navigazione primaria, gli items sono inseriti in box singoli e nel caso della pagina dei Luoghi i box a loro volta fanno parte di fasce, legate alle singole aree territoriali. La navigazione secondaria è attivabile da ogni pagina del sito e dipende dai canali di navigazione primaria di Luoghi e Periodo; sono impiegate le briciole di pane in ogni pagina per tornare agevolmente indietro e dal logo in testata è sempre possibile tornare alla Home. La navigazione contestuale invece è inclusa nei box di approfondimento nelle pagine dei singoli items; ad esempio a partire dalla datazione di un reperto è possibile arrivare ad altri reperti dello stesso periodo.</p>
+				</div>
+				<div class="col-2 col-2-img">
+					<img src="img/adobe.jpeg" class="adobe-img">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<h3>SERVIZI</h3>
+		<p>Tra i <strong>sistemi di browsing</strong> aggiuntivi, vorrei includere nel mio progetto una mappa nella pagina dedicata ai Luoghi e una linea del tempo sia nella pagina dei singoli periodi di tempo che in “Tutti i reperti”, disponendo in entrambi i casi gli items in ordine cronologico; vorrei inoltre inserire nella pagina di ogni item la possibilità di effettuare una navigazione sequenziale, con delle freccette in basso.<br>
+		Per l’<strong>interazione</strong> invece vorrei impiegare bottoni nella home, nella fascia di spiegazione del progetto e in quella destinata all’anteprima del catalogo di reperti, per accedere subito alle rispettive pagine dedicate nel sito; i bottoni sarebbero presenti poi in ogni pagina nel prefooter, per permettere l’iscrizione dell’utente al sito in ogni momento della ricerca. Inoltre vorrei disporre gli items in tabs nelle pagine di navigazione primaria, inserire dropdown menù a partire dai canali di Luoghi e Periodo nella navbar per mostrare i canali di navigazione secondaria, dotare i link interni ed esterni di tooltips e disporre in uno slideshow le immagini dei vari reperti in fondo alla home che fungono da anteprima del catalogo completo. <br>
+		Per permettere all’utente di effettuare una ricerca in ogni luogo della pagina vorrei che il menù fosse fisso; inoltre mi piacerebbe che si potesse effettuare lo zoom sull'immagine nella pagina del singolo item e che l’utente potesse fare una ricerca libera utilizzando la search form interattiva nella navbar. 
+		</p>
+	</div>
+
+	<div>
+		<h3>BIBLIOGRAFIA</h3>
+		<ul>
+			<li>“Dalla Preistoria all’Età del ferro, ossia dalla civiltà delle Madri a quella dei Guerrieri”, Luciana Percovich 2018</li>
+			<a href="https://italicaresblog.wordpress.com/" title="Italica Res Blog"><li>https://italicaresblog.wordpress.com/</li></a> 
+			<a href="https://www.preistoriainitalia.it/" title="Preistoria in Italia"><li>https://www.preistoriainitalia.it/</li></a> 
+			<a href="https://macedoniatimes.news/great-mother-goddess-macedonia/" title="Macedonia Times"><li>https://macedoniatimes.news/great-mother-goddess-macedonia/</li></a> 
+			<a href="https://commons.wikimedia.org/wiki/Pagina_principale" title="Wikimedia Commons"><li>https://commons.wikimedia.org/wiki/Pagina_principale</li></a> 
+			<a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" title="Wikidata"><li>https://www.wikidata.org/wiki/Wikidata:Main_Page</li></a> 
+			<a href="https://www.frru2.altervista.org/index.html" title="Archeoastronomia in Italia"><li>https://www.frru2.altervista.org/index.html</li></a> 
+			<a href="https://www.youtube.com/" title="YouTube"><li>https://www.youtube.com/</li></a> 
+			<a href="https://www.google.com/maps" title="Google Maps"><li>https://www.google.com/maps</li></a> 
+			<a href="https://www.lucidchart.com" title="LucidChart"><li>https://www.lucidchart.com</li></a> 
+			<a href="https://www.balsamiq.com/wireframes" title="Balsamiq"><li>https://www.balsamiq.com/wireframes</li></a> 
+			<a href="https://www.w3schools.com/" title="W3School"><li>https://www.w3schools.com/</li></a> 
+			<a href="https://getbootstrap.com/" title="Bootstrap"><li>https://getbootstrap.com/</li></a> 
+		</ul>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Torna sopra</button>
+</section>
+
+</maim>
+
+
+<!-- footer -->
+<footer class="container-fluid">
+	<div class="container footer-cont">
+		<div class="row">
+			<div class="col-4 txt-copy">
+				<a href="" title="©Copyright">©Copyright</a>
+			</div>
+			<div class="col-4 txt-wpp">
+				<a href="wpp.html" title="Web Project Plan">Web Project Plan</a>
+		    </div>
+			<div class="col-4">
+				<div class="row">
+					<div class="col-6 foot-trovaci">
+						Trovaci anche su
+					</div>
+					<div class="col-6">
+						<a href=""><img src="img/icone-social.png" alt="Icone social" class="social-icon"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+
+</body>
+</html>

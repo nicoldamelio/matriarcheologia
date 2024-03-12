@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>MatriArcheologia</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME= "DC.Title" CONTENT="Nome della risorsa"/>
+	<META NAME= "DC.Type" CONTENT="Natura della risorsa"/>
+	<META NAME= "DC.Date" CONTENT="Data di produzione della risorsa"/>
+	<META NAME= "DC.Place" CONTENT="Luogo di ritrovamento della risorsa"/>
+	<META NAME= "DC.Material" CONTENT="Materiale della risorsa"/>
+	<META NAME= "DC.Condition" CONTENT="Stato di conservazione della risorsa"/>
+	<META NAME= "DC.Size" CONTENT="Dimensioni della risorsa"/>
+	<META NAME= "DC.Exhibition" CONTENT="Luogo di esposizione della risorsa"/>
+</head>
+<body>
+<!-- header con nav -->
+<header>
+	<nav class="navbar navbar-expand-lg container-fluid">
+		<div class="header-container container-fluid">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/header-sfondo.png" title="Logo" alt="Logo" class="img-header">
+			</a> 
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="navbarNav" style="font-size: 1.5vw;">
+				<a href="">IL PROGETTO</a>
+				<div class="dropdown">
+    				<a href="luoghi.html"><button class="dropbtn">LUOGHI</button></a> 
+    				<div class="dropdown-content-1">
+    					<div class="container">
+    						<div class="row">
+    							<div class="col-6">
+    								<a href="#">Area Renano-Danubiana</a><br>
+				      				<a href="#">Area Italica</a><br>
+				      				<a href="">Area Russa</a>
+    							</div>
+    							<div class="col-6">
+    								<a href="#">Area Pirenaico-Aquitano</a><br>
+				      				<a href="">Area Balcanica</a>
+    							</div>
+    						</div>
+    					</div>				     
+    				</div>
+  				</div> 
+  				<div class="dropdown">
+    				<a href=""><button class="dropbtn">PERIODO</button></a> 
+    				<div class="dropdown-content-2">
+				      	<a href="#">Paleolitico</a><br>
+				      	<a href="#">Neolitico</a>
+    				</div>
+  				</div> 
+				<a href="">TUTTI I REPERTI</a>
+				<ul>	
+					<li><i class="fa fa-search search-bar" aria-hidden="true"></i></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">it</button></li>
+					<li><button type="button" class="btn btn-outline-dark btn-lang" style="font-size: 1.5vw">en</button></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<!-- main -->
+<main>
+	<section class="hero-image container-fluid">
+		<!-- title and subtitle -->
+	<div class="hero-text bg-hero-text container-fluid">
+		<h1 style="font-size:10vw">MatriArcheologia</h1>
+		<h3 class="subtitle" style="font-size: 3vw">IL MATRIARCATO ALLE ORIGINI DELLA CIVILTÀ</h3>
+	</div>
+	</section>
+
+	<section class="container project">
+		<!-- spiegazione progetto -->
+		<h2 class="project-title">Perchè MatriArcheologia?</h2>
+		<p class="project-p">L’archeologia preistorica studia le prime forme di civiltà, da sempre credute patrilineari, almeno fino all’avvento degli studi di genere alla fine degli anni ‘60 del secolo scorso. Da allora si va alla ricerca delle origini del sistema patriarcale e si scoprono forme di civiltà primordiali basate sul culto della Dea Madre. </p>
+		<p class="project-p"> Le prime origini della civiltà sono Matriarcato, e qui noi facciamo MatriArcheologia.
+			<button type="button" class="btn btn-primary btn-lg">scopri il progetto</button>
+		</p>
+
+	</section>
+
+	<section class="container cont-gallery">
+		<!-- galleria immagini -->
+		<div class="row row-gallery">
+			<div class="col-6">
+				<div class="scroll-container">
+					<img src="img/gagarino.jpg" class="img-reperti" alt="Venere di Gagarino">			
+					<img src="img/scandiano.jpg" class="img-reperti" alt="Venere di Scandiano">
+					<img src="img/willendorf.jpg" class="img-reperti" alt="Venere di willendorf">
+					<img src="img/Dolní-Věstonice.jpg" class="img-reperti" alt="Venere di Dolní-Věstonice">
+					<img src="img/brassempouy.png" class="img-reperti" alt="Venere di Brassempouy">
+					<img src="img/bracciano.jpg" class="img-reperti" alt="Venere di Bracciano">
+				</div>
+			</div>
+			<div class="col-6 txt-gallery">
+				<h3>LE VARIE FORME DI <br> DEA MADRE</h3>
+				<a href=""><button type="button" class="btn btn-primary btn-gallery">esplora i reperti</button></a>
+			</div>
+		</div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Torna sopra</button>
+	</section>
+
+	<section>
+		<!--wordcloud-->
+		<div class="container">
+			<div class="row">
+				<div class="col-3 wordcloud-txt">
+					<h5>effettua una ricerca per parola chiave</h5>
+					<input type="text" name="search" placeholder="Search.." class="wordcloud-input">
+				</div>
+				<div class="col-9">
+					<img src="img/wordcloudd.png" class="wordcloud" alt="wordcloud">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+<!-- prefooter -->
+	<section class="container-fluid bg-pref" style="height: 40%vh;">
+		<div class="container txt-center">
+			<div class="row">
+				<div class="col-6 pref-text">
+					<h3 class="pref-h">ISCRIVITI</h3>
+					<p class="pref-p">per effettuare il download delle immagini e copiare i testi</p>
+				</div>
+				<div class="col-6 sub-form">
+					<div class="mb-3">
+  						<label for="formGroupExampleInput" class="form-label">username:</label>
+  						<input type="text" class="form-control" id="formGroupExampleInput">
+					</div>
+					<div class="mb-3">
+  						<label for="formGroupExampleInput2" class="form-label">e-mail:</label>
+  						<input type="text" class="form-control" id="formGroupExampleInput2">
+					</div>
+					<button type="button" class="btn btn-primary btn-lg sub-btn">Iscriviti</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!-- footer -->
+<footer class="container-fluid">
+	<div class="container footer-cont">
+		<div class="row">
+			<div class="col-4 txt-copy">
+				<a href="" title="©Copyright">©Copyright</a>
+			</div>
+			<div class="col-4 txt-wpp">
+				<a href="wpp.html" title="Web Project Plan">Web Project Plan</a>
+		    </div>
+			<div class="col-4">
+				<div class="row">
+					<div class="col-6 foot-trovaci">
+						Trovaci anche su
+					</div>
+					<div class="col-6">
+						<a href=""><img src="img/icone-social.png" alt="Icone social" class="social-icon"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+
+</body>
+</html>
